@@ -1,0 +1,40 @@
+{
+    "message": "hello i18n !!",
+    "Dummy": "Kukla",
+    "Turkish": "Türkçe",
+    "English": "İngilizce",
+    "Learn Geometry": "Geometri Öğrenin",
+    "Lorem ipsum dolor sit amet.": "Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.",
+    "Get Started": "Başla",
+    "Contact Us": "İletişim",
+    "Login": "Giriş Yap",
+    "Logout": "Çıkış Yap",
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.": "Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir.",
+    "Pythagoras Theorem": "Pisagor Teoremi",
+    "Title": "Başlık",
+    "Button": "Buton",
+    "Login Form": "Giriş Formu",
+    "Email": "Email",
+    "Name": "İsim",
+    "Lastname": "Soyisim",
+    "Password": "Şifre",
+    "Submit": "Gönder",
+    "Telephone": "Telefon",
+    "phone number must consist of numbers.": "Telefon numarası rakamlardan oluşmalıdır.",
+    "Enter your 11 digit phone number.": "11 haneli telefon numaranızı girin.",
+    "Country": "Ülke",
+    "Description": "Açıklama",
+    "Canada": "Kanada",
+    "USA": "Amerika",
+    "Mexico": "Meksika",
+    "Turkey": "Türkiye"
+
+
+
+
+
+
+
+
+
+}
