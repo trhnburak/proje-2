@@ -157,53 +157,56 @@
 
 
                 </div>
-                <div class="modal-body" style="height: 250px">
+                <div class="modal-body ">
                   <form>
-                    <div class="form-group">
-                      <input
-                          type="text"
-                          class="form-control"
-                          v-model="user.title"
-                          id="title"
-                          :placeholder="$t('Title')"
-                      />
-                    </div>
-                    <div class="form-group">
-                      <input
-                          type="text"
-                          class="form-control"
-                          v-model="user.name"
-                          id="name"
-                          :placeholder="$t('Name')"
-                      />
-                    </div>
-                    <div class="form-group">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group">
+                          <input
+                              type="text"
+                              class="form-control"
+                              v-model="user.title"
+                              id="title"
+                              :placeholder="$t('Title')"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <input
+                              type="text"
+                              class="form-control"
+                              v-model="user.name"
+                              id="name"
+                              :placeholder="$t('Name')"
+                          />
+                        </div>
+                        <div class="form-group">
 
-                      <input
-                        type="email"
-                        class="form-control"
-                        v-model="user.email"
-                        id="email"
-                        :placeholder="$t('Email')"
-                      />
+                          <input
+                              type="email"
+                              class="form-control"
+                              v-model="user.email"
+                              id="email"
+                              :placeholder="$t('Email')"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <input
+                              type="password"
+                              class="form-control"
+                              v-model="user.password"
+                              id="password"
+                              :placeholder="$t('Password')"
+                          />
+                        </div>
+                        <button
+                            type="button"
+                            class="btn btn-info btn-block btn-round"
+                            @click="login">
+                          {{ $t("Login") }}
+                        </button>
+                      </div>
                     </div>
-                    <div class="form-group">
-                      <input
-                        type="password"
-                        class="form-control"
-                        v-model="user.password"
-                        id="password"
-                        :placeholder="$t('Password')"
-                      />
-                    </div>
-                    <div class="form-group">
-                      <button
-                          type="button"
-                          class="btn btn-info btn-block btn-round"
-                          @click="login">
-                        {{ $t("Login") }}
-                      </button>
-                    </div>
+
 
                   </form>
                 </div>
@@ -224,7 +227,7 @@ export default {
     return {
       lang: "en",
       showModal: false,
-      dropdown: false,
+      dropdown: true,
       isAuth: "",
       user: {
         name: "",
